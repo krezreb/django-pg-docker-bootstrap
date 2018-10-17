@@ -25,16 +25,10 @@ services:
             
         links:
             - postgres:postgres
-            - redis:redis
             
         env_file: 
             - .env
         command: uwsgi --ini /usr/src/app/uwsgi.ini
-    
-    redis:
-        image: redis:alpine
-        expose:
-            - "6379"
      
     postgres:
         image: postgres:9.6-alpine
