@@ -1,0 +1,12 @@
+Django<2
+pytz
+psycopg2
+django-json-field
+django-filter
+psutil
+json2html
+django-ipware
+requests
+
+# uwsgi, faster than gunicorn apparently
+uwsgi
