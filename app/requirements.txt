@@ -1,6 +1,6 @@
 Django<2
 pytz
-psycopg2
+psycopg2-binary
 django-json-field
 django-filter
 psutil
@@ -8,5 +8,5 @@ json2html
 django-ipware
 requests
 
-# uwsgi, faster than gunicorn apparently
+# uwsgi, faster than gunicorn
 uwsgi
